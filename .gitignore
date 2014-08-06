@@ -1,6 +1,60 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+.gitignore
+.DS_Store
+.*swp
+.idea
+tags
+/puppet/cache/
+/.vagrant
+/.buildpath
+/.settings/
+/.project
+/.htaccess
+/.enabled-modules
+/index.php
+/nbproject/
+/protected/data/*
+/protected/models/ElementExample.php
+/protected/models/elements/ElementExample.php
+/protected/modules/*
+/protected/runtime/
+/protected/tests/report/
+/protected/tests/test_results/
+/protected/views/elements/ElementExample/
+/protected/config/db_dw.php
+/protected/config/db_muu.php
+/protected/views/patient/custom/info/php
+/protected/commands/
+vendor
+/.sass-cache
+/node_modules
+/docs/templates/styleguide/public/css
+/docs/templates/styleguide/public/img
+/docs/public/styleguide/
+/docs/public/jsdoc
+/docs/public/assets/core
+/bin/phpunit
+/bin/webunit
+/docs/public
+
+# Bower development dependencies
+/protected/assets/components/google-code-prettify
+/protected/assets/components/jquery
+/protected/assets/components/jquery-ui
+
+# Tests
+/bin/.enabled-modules
+/jm_behat_report.html
+
+# Temporary, until we've sorted out vagrant for installing test dependencies
+bin/OLD selenium-server-standalone-2.33.0.jar
+bin/OLDER selenium-server-standalone-2.34.0.jar
+bin/behat
+bin/chromedriver
+bin/ciUnitTest.sh
+bin/dbunit.php
+bin/oe-git-checkout
+bin/oe-git-pull
+bin/oe-git-status
+composer.phar
+features/bootstrap/Features/Templates/CODINGONLY.feature
+selenium-server-standalone-2.35.0.jar
